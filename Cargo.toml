@@ -22,4 +22,4 @@ actix-cors = "0.6.4"
 rand = "0.8.5"
 mime = "0.3.17"
 gif = "0.13.1"
-time = "^0.3.35"
+time = "0.3.35" # there was an inference error on crate `time` caused by an API change in Rust 1.80.0; this is fixed by updating `time` to version `>=0.3.35`
